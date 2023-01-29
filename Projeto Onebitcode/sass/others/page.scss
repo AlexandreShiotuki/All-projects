@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../../imagens/e0effbab5fe07db1fddeaf7c12ff6d21.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+}
+
+.formBody {
+  background-color: $secundary-color;
+  width: 450px;
+  height: auto;
+}
+
+.topLogo {
+  width: 180px;
+}
+
+.paragraph {
+  margin: $margin-title 0px;
+}
+
+.btnSucess {
+  color: $primary-color;
+  border: 1px solid $primary-color;
+
+  &:hover {
+    background-color: $primary-color;
+    color: white;
+    border: 1px solid $primary-color;
+  }
+}
+
+.footer {
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+
+@media (max-width: 485px) {
+  .formBody {
+    width: auto;
+  }
+}
